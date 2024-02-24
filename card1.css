@@ -1,0 +1,101 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+	background-image: url(image4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#container
+{
+	width: 300px;
+	height: 500px;
+	box-shadow: 2px 3px 8px 1px #051b24;
+	border-radius: 15px;
+	margin: 120px auto;
+	background: linear-gradient(0deg, #ffffff 50%, black 50%);
+}
+
+#img
+{
+	width: 400px;
+	height: 380px;
+}
+
+#img1
+{
+	width: 40%;
+	height: 6%;
+	top: -100px;
+	left: -60px;
+}
+#img2
+{
+	width: 100%;
+	position: relative;
+	top: -94px;
+	left: -86px;
+	background: transparent;
+}
+
+#heading
+{
+	width: 100%;
+	margin: 5px auto;
+	/* background: white; */
+	position: relative;
+	top: -180px;
+	overflow: hidden;
+}
+
+h1
+{
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ff0000;
+	border-bottom: 3px solid #00BCD4;
+	text-shadow: 2px 3px 4px black;
+	margin: 10px auto;
+	background: white;
+}
+p
+{
+	font-size: 16px;
+	color: black;
+	text-align: center;
+	width: 95%;
+	margin: 10px auto;
+}
+
+#btn
+{
+	width: 100%;
+	margin: 2px auto;
+}
+input
+{
+	font-size: 25px;
+	font-weight: bold;
+	word-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	border: none;
+	outline: none;
+	border: 3px solid #ff0000;
+	box-shadow: 0px 0px 0px 0px black;
+	background: linear-gradient(90deg, #458aa7 50%, red 50%);
+	border-radius: 10px;
+	margin: 6px auto;
+	position: relative;
+	left: 14px;
+	padding: 4px;
+	width: 90%;
+	color: white;
+}
